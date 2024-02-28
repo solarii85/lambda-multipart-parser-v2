@@ -1,10 +1,12 @@
 # lambda-multipart-parser
 ```
-npm install lambda-multipart-parser --save
+npm install lambda-multipart-parser-v2 --save
 ```
 
 ## Introduction
 This nodejs module will parse the multipart-form containing files and fields from the AWS lambda event object. It works very well parsing **binary** and text files.
+
+v2 has been updated to use Busboy 1.6.0
 
 ## Description
 ```
@@ -55,3 +57,5 @@ npm run test
 1.0.0 - Formalized package release version. Add utf8 support.
 
 1.0.1 - Added support for TypeScript typings.
+
+1.0.2 - Changes made to support Busboy 1.6.0

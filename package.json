@@ -1,18 +1,18 @@
 {
-    "name": "lambda-multipart-parser",
-    "version": "1.0.1",
-    "description": "This module will parse the multipart-form containing files and fields from the lambda event object.",
+    "name": "lambda-multipart-parser-v2",
+    "version": "1.0.3",
+    "description": "This module will parse the multipart-form containing files and fields from the lambda event object. Updated to use Busboy 1.6.0",
     "main": "index.js",
-    "author": "francismeynard",
+    "author": "solarii85",
     "license": "MIT",
     "scripts": {
         "test": "./node_modules/.bin/mocha --recursive --reporter spec"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/francismeynard/lambda-multipart-parser.git"
+        "url": "git+https://github.com/solarii85/lambda-multipart-parser-v2.git"
     },
-    "homepage": "https://github.com/francismeynard/lambda-multipart-parser#readme",
+    "homepage": "https://github.com/solarii85/lambda-multipart-parser-v2#readme",
     "keywords": [
         "aws",
         "lambda",
@@ -24,7 +24,7 @@
         "multipart/formdata"
     ],
     "dependencies": {
-        "busboy": "^0.3.0"
+        "busboy": "^1.6.0"
     },
     "devDependencies": {
         "chai": "^3.5.0",
